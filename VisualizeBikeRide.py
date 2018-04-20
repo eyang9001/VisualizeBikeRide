@@ -125,7 +125,7 @@ def drawLegends(scale, sideSize, textSize, win, minAlt, maxAlt, minHr, maxHr):
 	altMxTtl.setSize(textSize)
 	altMxTtl.draw(win)
 	# Draw the altitude minimum value
-	altMnTtl = Text(Point(5*sideSize/6, scale/5+(textSize/2)), 'Min- ' + str(minAlt))
+	altMnTtl = Text(Point(5*sideSize/6, scale/5-(textSize/2)), 'Min- ' + str(minAlt))
 	altMnTtl.setTextColor(color_rgb(0, 250, 0))
 	altMnTtl.setSize(textSize)
 	altMnTtl.draw(win)
@@ -135,7 +135,7 @@ def drawLegends(scale, sideSize, textSize, win, minAlt, maxAlt, minHr, maxHr):
 	hrMxTtl.setSize(textSize)
 	hrMxTtl.draw(win)
 	# Draw the altitude minimum value
-	hrMnTtl = Text(Point(scale + 11*sideSize/6, scale/5+(textSize/2)), 'Min- ' + str(minHr))
+	hrMnTtl = Text(Point(scale + 11*sideSize/6, scale/5-(textSize/2)), 'Min- ' + str(minHr))
 	hrMnTtl.setTextColor(color_rgb(250, 0, 0))
 	hrMnTtl.setSize(textSize)
 	hrMnTtl.draw(win)
