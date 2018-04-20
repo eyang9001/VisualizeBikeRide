@@ -5,7 +5,7 @@
 
 ## Parse through exported XML files from Strava to visualize recorded rides
 
-The program will read your Strava file and run through the route while showing the altitude, heart rate (if recorded), and speed on the right.
+The program will read your Strava file and run through the GPS coordinates of the route while showing the altitude, heart rate (if recorded), and speed on the right.
 
 **Author**
 
