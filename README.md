@@ -1,6 +1,6 @@
 # VisualizeBikeRide
 
-![example image2](https://user-images.githubusercontent.com/30561629/39055165-7e1e98f2-4481-11e8-9be0-a2c84664a5d7.png)
+![example image3](https://user-images.githubusercontent.com/30561629/39057578-8da58762-4487-11e8-82dd-8bf41fd0f0be.png)
  ---
 
 ## Parse through exported XML files from Strava to visualize recorded rides
