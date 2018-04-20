@@ -35,4 +35,4 @@ Eric Yang
 
 ## Resources
 
-The visualization uses the `graphics.py` library which was found at http://mcsp.wartburg.edu/zelle/python/graphics.py
+The visualization uses the `graphics.py` library which can be found at http://mcsp.wartburg.edu/zelle/python/graphics.py
