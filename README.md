@@ -7,7 +7,7 @@
 
 The program will read your Strava file and run through the route while showing the altitude on the left and heart rate (if recorded) on the right.
 
-**Authors**
+**Author**
 
 Eric Yang
 
