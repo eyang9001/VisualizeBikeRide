@@ -1,11 +1,11 @@
 # VisualizeBikeRide
 
-![example image3](https://user-images.githubusercontent.com/30561629/39057578-8da58762-4487-11e8-82dd-8bf41fd0f0be.png)
+![example image4](https://user-images.githubusercontent.com/30561629/39067038-45fe4c78-44a5-11e8-86a0-75503fa1c244.png)
  ---
 
 ## Parse through exported XML files from Strava to visualize recorded rides
 
-The program will read your Strava file and run through the route while showing the altitude on the left and heart rate (if recorded) on the right.
+The program will read your Strava file and run through the route while showing the altitude, heart rate (if recorded), and speed on the right.
 
 **Author**
 
