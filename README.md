@@ -5,7 +5,7 @@
 
 ## Parse through exported XML files from Strava to visualize recorded rides
 
-The program will read the Strava file and run through the route while showing the altitude on the left and heart rate (if included) on the right.
+The program will read your Strava file and run through the route while showing the altitude on the left and heart rate (if recorded) on the right.
 
 ## Authors
 
