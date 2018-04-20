@@ -75,7 +75,7 @@ def iterDraw(x, scale, sideSize, rfRate, readRate, Nlat, Nlng, Nhr, Nalt, hr, al
 		pt1 = pt2
 		pt2 = Point(Nlng[x]+sideSize,scale-Nlat[x])
 		ln = Line(pt1,pt2)
-		ln.setOutline(color_rgb(0, 0, 255))
+		ln.setOutline(color_rgb(90, 97, 255))
 		ln.draw(win)
 		# Clear the numerical values
 		clearSidebar(scale, sideSize, win)
@@ -83,13 +83,13 @@ def iterDraw(x, scale, sideSize, rfRate, readRate, Nlat, Nlng, Nhr, Nalt, hr, al
 		altRect.undraw()
 		altRect = Rectangle(Point((sideSize/3), (scale/5)), Point((2*sideSize/3), (scale/5)-Nalt[x]))
 		altRect.setOutline(color_rgb(0, 255, 0))
-		altRect.setFill(color_rgb(0, 250, 0))
+		altRect.setFill(color_rgb(153, 255, 167))
 		altRect.draw(win)
 		# Clear previous heart rate bar and re-draw
 		hrRect.undraw()
 		hrRect = Rectangle(Point(scale+(4*sideSize/3), (scale/5)), Point(scale+(5*sideSize/3), (scale/5)-Nhr[x]))
 		hrRect.setOutline(color_rgb(255, 0, 0))
-		hrRect.setFill(color_rgb(250, 0, 0))
+		hrRect.setFill(color_rgb(100, 30, 30))
 		hrRect.draw(win)
 		# Draw the numerical values
 		drawText(scale, sideSize, win, alt[x], hr[x], textSize)
