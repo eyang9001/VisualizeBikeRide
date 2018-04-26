@@ -68,8 +68,8 @@ def normalize(scale, lat, lng, hr, alt, spd):
 
 	return (nlat, nlng, nhr, nalt, nspd)
 # Draws to window
-def draw(scale, sideSize, rfRate, readRate, Nlat, Nlng, Nhr, Nalt, Nspd, hr, alt, spd):
-	win = GraphWin("Ride", scale+sideSize, scale)
+def draw(fileName, scale, sideSize, rfRate, readRate, Nlat, Nlng, Nhr, Nalt, Nspd, hr, alt, spd):
+	win = GraphWin(fileName, scale+sideSize, scale)
 	win.setBackground(color_rgb(0,0,0))
 	length = len(Nlat)
 	textSize = findTextSize(sideSize)
@@ -224,6 +224,6 @@ def main():
 	(lat,lng,hr,alt,spd) = readin(fileName)
 	# Normalize data for visualization
 	(Nlat, Nlng, Nhr, Nalt, Nspd) = normalize(scale, lat, lng, hr, alt, spd)
-	draw(scale, sideSize, rfRate, readRate, Nlat, Nlng, Nhr, Nalt, Nspd, hr, alt, spd)
+	draw(fileName, scale, sideSize, rfRate, readRate, Nlat, Nlng, Nhr, Nalt, Nspd, hr, alt, spd)
 
 main()
