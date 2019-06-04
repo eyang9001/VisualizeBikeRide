@@ -25,7 +25,7 @@ Eric Yang
 
 1. Clone the directory to your local machine. It includes `RacingSunsetFull.xml` as an example
 2. To get an XML of your own ride, go online to Strava.com and find the specific activity you want to export
-3. In the url, append `/export_tcx` to the end, and this will download the tcx file
+3. In the url, append `/export_original` to the end, and this will download the tcx file
 4. To convert the TCX to XML, simply change the filetype from `.tcx` to `.xml`
 5. In `main()`, change `fileName` to the **full** name of your downloaded xml file
 6. (optional) You can change the size of the visualization by modifying `scale` in `main()`
